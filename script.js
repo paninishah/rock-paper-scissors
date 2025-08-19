@@ -1,3 +1,5 @@
+let humanScore = 0;
+let computerScore = 0;
 function getComputerChoice(){
     const randomNum = Math.random();
     if(randomNum < 1/3){
